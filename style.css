@@ -17,12 +17,13 @@
     z-index: 9999;
     display: block;
 }
-ul {
+.navbar-nav {
     padding: 0;
     margin: 0;
     list-style: none;
     border: solid;
     border-color: green;
+    float: right;
 }
 
 .nav-link {
@@ -33,4 +34,25 @@ ul {
 .navbar-icons {
     height: 25px;
     weight: 25px;
+}
+
+.main {
+    border: solid;
+    border-color: red;
+    height: 70vh;
+    width: auto;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-media {
+    display: block;
+    border: solid;
+    border-color: yellow;
+}
+.facebook, .twitter, .instagram {
+    display: inline-block;
+    border: solid;
+    border-color: blue;
 }
