@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+  .navbar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: transparent;
+    overflow: hidden;
+    border-style:solid;
+    border-width: 1px;
+    border-color: gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    z-index: 9999;
+    display: block;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: solid;
+    border-color: green;
+}
+
+.nav-link {
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+.navbar-icons {
+    height: 25px;
+    weight: 25px;
+}
