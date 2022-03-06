@@ -46,11 +46,18 @@
     background-repeat: no-repeat;
 }
 
+.call-to-action {
+    padding: 30px;
+    margin: 50px;
+}
+
 .social-media {
     display: block;
     border: solid;
     border-color: yellow;
+    padding: 30px;
 }
+
 .facebook, .twitter, .instagram {
     display: inline-block;
     border: solid;
