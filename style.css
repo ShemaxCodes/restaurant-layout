@@ -33,7 +33,7 @@
 
 .navbar-icons {
     height: 25px;
-    weight: 25px;
+    max-height: 25px;
 }
 
 .main {
