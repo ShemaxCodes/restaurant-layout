@@ -63,3 +63,18 @@
     border: solid;
     border-color: blue;
 }
+
+.about-us {
+    border: solid;
+    border-color: red;
+    height: 70vh;
+    width: auto;
+    background-image: url("images/pexels-janko-ferlic-590477.jpg"), url("images/pexels-pixabay-357573.jpg");
+    background-size: contain, contain;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.about-us-description {
+   
+}
