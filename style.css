@@ -73,8 +73,39 @@
     background-size: contain, contain;
     background-position: right bottom, left top;
     background-repeat: no-repeat, no-repeat;
+    display: block;
 }
 
 .about-us-description {
-   
+   position: relative;
+}
+
+.order-now {
+    text-align: center;
+    padding: 20px;
+}
+
+.list-items {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.food-gallery {
+    text-align: center;
+}
+
+.breakfast {
+    margin: 5px;
+    border: none;
+    /* width: 350px; */
+    display: inline-flex;
+}
+
+.breakfast img {
+   width: 30vh;
+   height: auto;
+   border-radius: 8px;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
