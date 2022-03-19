@@ -90,6 +90,7 @@
 .order-now {
     text-align: center;
     padding: 20px;
+    border: solid;
 }
 
 .list-items {
@@ -115,4 +116,17 @@
    border-radius: 8px;
    flex-direction: row;
    flex-wrap: wrap;
+}
+
+.openingHours {
+    border: solid;
+    display: block;
+}
+
+.book-opening, .phone-icon {
+    text-align: center;
+}
+
+.daysOfWeek {
+    display: flex;
 }
