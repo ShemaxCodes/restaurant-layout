@@ -129,4 +129,11 @@
 
 .daysOfWeek {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.video {
+    text-align: center;
+    padding-bottom: 50px;
 }
