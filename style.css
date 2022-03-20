@@ -44,6 +44,7 @@
     background-image: url("images/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 .call-to-action {
@@ -77,9 +78,10 @@
     display: block;
 }
 
+  
+
 .about-us-description {
-   position: relative;
-   left: 400px;
+    
 }
 
 .about-us-description p {
@@ -114,8 +116,9 @@
    width: 30vh;
    height: auto;
    border-radius: 8px;
-   flex-direction: row;
-   flex-wrap: wrap;
+   display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .openingHours {
@@ -130,7 +133,7 @@
 .daysOfWeek {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .video {
