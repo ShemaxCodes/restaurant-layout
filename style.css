@@ -46,6 +46,11 @@
     background-repeat: no-repeat;
     
 }
+h1, h2 {
+    font-family: 'Ramaraja', serif;
+    font-size: 40px;
+    font-weight: 500;
+}
 
 .call-to-action {
     padding: 30px;
