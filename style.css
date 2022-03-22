@@ -29,12 +29,19 @@
 .nav-link {
     padding: 14px 16px;
     display: inline-block;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
 }
 
 .navbar-icons {
-    height: 25px;
-    max-height: 25px;
+    height: 20px;
+    max-height: 20px;
 }
+
+
+/*//////////////////////////////////////////////////
+HERO SECTION/ MAIN TOP SECTION 
+////////////////////////////////////////////////*/
 
 .main {
     border: solid;
@@ -52,6 +59,13 @@ h1, h2 {
     font-weight: 500;
     
 }
+h5 {
+    color: #FF7F12;
+}
+h5, p {
+    font-family: serif;
+    font-size: 20px;
+}
 
 .title h1 {
     overflow-wrap: break-word;
@@ -67,9 +81,26 @@ h1, h2 {
 
 input[type=text] {
     width: 400px;
-    height: 30px;
+    height: 40px;
+    border-radius: 8px;
+    border: solid thin;
+    padding: 10px;
 }
+.container {
+    display: flex
+  }
 
+.location-btn {
+    background-color: #FF7F12;
+    color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    position: relative;
+    left: -50px;
+}
 .social-media {
     display: block;
     border: solid;
@@ -80,12 +111,25 @@ input[type=text] {
     display: inline-block;
     border: solid;
     border-color: blue;
+    padding-right: 40px;
+}
+.social-media-icons {
+    padding: 0;
+}
+.social-media-icons img {
+    height: 15px;
+    width: 15px;
+    color: orange;
 }
 
+
+/*//////////////////////////////////////////////////
+ABOUT US SECTION / DISCOVER US
+////////////////////////////////////////////////*/
 .about-us {
     border: solid;
     border-color: red;
-    height: 70vh;
+    height: 90vh;
     width: auto;
     background-image: url("images/pexels-elle-hughes-1660030.jpg");
     background-size: cover;
@@ -94,7 +138,6 @@ input[type=text] {
     display: block;
 }
 
-  
 
 .about-us-description {
     position: relative;
@@ -112,7 +155,23 @@ input[type=text] {
     text-align: justify;
  }
 
+ .discover-menu-btn {
+    background-color: #FF7F12;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 14px 30px;
+    border: none;
+ }
 
+
+ /*//////////////////////////////////////////////////
+ORDER ONLINE NOW SECTION 
+////////////////////////////////////////////////*/
+
+.order-header-two {
+    line-height: 0.5;
+}
 .order-now {
     text-align: center;
     padding: 20px;
@@ -123,6 +182,8 @@ input[type=text] {
     padding: 0;
     margin: 0;
     list-style: none;
+    border: solid;
+    border-bottom: solid thin;
 }
 
 .food-gallery {
@@ -145,13 +206,20 @@ input[type=text] {
     justify-content: space-evenly;
 }
 
+/*//////////////////////////////////////////////////
+OPENING HOURS/ BOOKING SECTION 
+////////////////////////////////////////////////*/
+
+
 .openingHours {
     border: solid;
     display: block;
+    padding: 20px;
 }
 
 .book-opening, .phone-icon {
     text-align: center;
+    line-height: 0.5;
 }
 
 .daysOfWeek {
@@ -177,6 +245,14 @@ REVIEW SECTION
     text-align: center;
 }
 
+.testimonial-header {
+    line-height: 0.5;
+}
+
+.testimonial-reviews {
+    height: auto;
+    width: 500px;
+}
 .testimonial-profile-pic {
     height: 30%;
     width: 30%;
