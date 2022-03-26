@@ -263,7 +263,7 @@ OPENING HOURS/ BOOKING SECTION
     line-height: 0.5;
 }
 
-img.phone{
+.phone{
     color: #FF7F12;
 }
 
@@ -313,10 +313,15 @@ REVIEW SECTION
 }
 
 .testimonial-reviews {
-    height: 115px;
-    width: 500px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.testimonial-reviews > p {
     text-align: center;
 }
+
 .testimonial-profile-pic {
     height: 30%;
     width: 30%;
