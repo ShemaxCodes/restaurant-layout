@@ -48,13 +48,14 @@ HERO SECTION/ MAIN TOP SECTION
 
 .main {
     
-    height: 70vh;
+    height: 90vh;
     width: auto;
     background-image: url("images/bg.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     
 }
+
 h1, h2 {
     font-family: 'Ramaraja', serif;
     font-size: 60px;
@@ -140,7 +141,7 @@ ABOUT US SECTION / DISCOVER US
 
 .about-us-description {
     position: relative;
-    left: 650px;
+    left: 680px;
     height: auto;
     width: 500px;
 }
@@ -174,7 +175,6 @@ ORDER ONLINE NOW SECTION
 .order-now {
     text-align: center;
     padding: 20px;
-    border: solid;
 }
 
 
@@ -275,6 +275,7 @@ OPENING HOURS/ BOOKING SECTION
     font-size: 30px;
     color: #FF7F12;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .daysOfWeek {
@@ -300,12 +301,17 @@ span > p {
 REVIEW SECTION
 ///////////////////////////////////////////*/
 
-.review-section {
-    border: solid;
-}
+
 
 .testimonial-header, .testimonial-profile {
     text-align: center;
+}
+
+.testimonial-profile {
+    line-height: 0.1;
+}
+.testimonial-profile > h4 {
+    color: #FF7F12;
 }
 
 .testimonial-header {
@@ -331,5 +337,7 @@ REVIEW SECTION
 .testimonial-review-stars{
     height: 20px;
     width: 20px;
+    margin-top: 20px;
+    fill: #FF7F12;
     
 }
