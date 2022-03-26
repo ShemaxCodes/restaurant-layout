@@ -177,13 +177,12 @@ ORDER ONLINE NOW SECTION
     border: solid;
 }
 
+
+
 .list-items {
     padding: 10px;
     margin: 20px;
     list-style: none;
-    border-bottom: solid thin;
-    /* position: relative;
-    left: 350px; */
 }
 
 
@@ -242,7 +241,7 @@ ORDER ONLINE NOW SECTION
 .breakfast img {
    width: 30vh;
    height: auto;
-   border-radius: 8px;
+   border-radius: 2px;
    display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -254,14 +253,28 @@ OPENING HOURS/ BOOKING SECTION
 
 
 .openingHours {
-    border: solid;
     display: block;
     padding: 20px;
+    background-color: #F0EDF6;
 }
 
 .book-opening, .phone-icon {
     text-align: center;
     line-height: 0.5;
+}
+
+img.phone{
+    color: #FF7F12;
+}
+
+.callNow {
+    color: black;
+}
+
+.phoneNumber {
+    font-size: 30px;
+    color: #FF7F12;
+    text-decoration: none;
 }
 
 .daysOfWeek {
@@ -270,9 +283,17 @@ OPENING HOURS/ BOOKING SECTION
     justify-content: space-evenly;
 }
 
+span {
+    line-height: 0.1;
+}
+
+span > p {
+    font-weight: bold;
+    font-size: 30px;
+}
 .video {
     text-align: center;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
 /*//////////////////////////////////////////////
