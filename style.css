@@ -34,6 +34,7 @@
 
 .nav-link a {
     text-decoration: none;
+    font-family: serif;
 }
 .navbar-icons {
     height: 20px;
@@ -180,16 +181,56 @@ ORDER ONLINE NOW SECTION
     padding: 10px;
     margin: 20px;
     list-style: none;
-
     border-bottom: solid thin;
- 
-    position: relative;
-    left: 350px;
+    /* position: relative;
+    left: 350px; */
 }
 
-.food-gallery {
-    text-align: center;
+
+.list-items > .nav-link a:before {
+    content: '';
+    background: #FF7F12;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+  }
+
+
+.list-items > .nav-link a:hover {
+    background-position: 0;  
 }
+
+.list-items > .nav-link a:hover::before {
+    width: 100%;
+}
+
+
+
+.list-items > .nav-link a {
+    font-family: serif;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    /* word-spacing: 10px; */
+    padding: 10px; 
+    
+    background-image: linear-gradient(
+      to right,
+      #FF7F12,
+      #FF7F12 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+
 
 .breakfast {
     margin: 5px;
